@@ -10,7 +10,7 @@ do
   then
     echo "found image: $filename - $extension"
     touch -m -t $filename $FILE
-    #touch -m -t 202012311200.jpg
+    #touch -m -t 202012311200 202012311200.jpg
   fi
   #echo $FILE; done
   #echo "${FILE%.*}"
